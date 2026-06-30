@@ -1,0 +1,34 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    arf-ui1 (AVX512, FMA3, 503 GB RAM)
+Command: iqtree -s test.fasta -m MFP -bb 1000 -T AUTO
+Seed:    836408 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 20 17:05:29 2026
+Kernel:  AVX+FMA - auto-detect threads (112 CPU cores detected)
+
+Reading alignment file test.fasta ... Fasta format detected
+Reading fasta file: done in 0.00193447 secs using 5.48% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 11 sequences with 1130 columns, 125 distinct patterns
+0 parsimony-informative, 0 singleton sites, 1130 constant sites
+                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000307851 secs using 229.7% CPU
+   1  results/alignment/CGG100272.sorted.rmdup.bam      1.59%    passed     99.95%
+   2  results/alignment/CGG100534.sorted.rmdup.bam      1.24%    passed     99.78%
+   3  results/alignment/CGG101233.sorted.rmdup.bam      1.15%    passed     99.88%
+   4  results/alignment/CGG_2_18521.sorted.rmdup.bam    1.59%    passed     99.60%
+   5  results/alignment/NEO105.sorted.rmdup.bam         4.34%    passed     97.99%
+   6  results/alignment/NEO137.sorted.rmdup.bam         1.77%    passed     99.29%
+   7  results/alignment/NEO31.sorted.rmdup.bam          7.35%    passed     89.09%
+   8  results/alignment/NEO65.sorted.rmdup.bam         18.05%    passed     99.39%
+   9  results/alignment/NEO938.sorted.rmdup.bam         1.42%    passed     99.64%
+  10  results/alignment/RISE540.sorted.rmdup.bam       47.61%    passed     47.07%
+  11  results/alignment/VK35.sorted.rmdup.bam          11.42%    passed     99.05%
+****  TOTAL                                             8.87%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.004 seconds, parsimony score: 0 (based on 0 sites)
+Measuring multi-threading efficiency up to 112 CPU cores
+Increase to 10 rounds for branch lengths

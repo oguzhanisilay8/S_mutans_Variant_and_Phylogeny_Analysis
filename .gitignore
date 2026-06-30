@@ -1,0 +1,11 @@
+*.fastq.gz
+*.bam
+*.sam
+*.sai
+*.sif
+*.vcf
+S_mutans_project/data/
+S_mutans_project/containers/
+S_mutans_project/results/processed/
+S_mutans_project/results/alignment/
+S_mutans_project/results/variants/

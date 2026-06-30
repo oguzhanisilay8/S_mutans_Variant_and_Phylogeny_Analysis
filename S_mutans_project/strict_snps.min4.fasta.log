@@ -1,0 +1,46 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    arf-ui1 (AVX512, FMA3, 503 GB RAM)
+Command: iqtree -s strict_snps.min4.fasta -m MFP -bb 1000 -T AUTO
+Seed:    799045 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 20 17:01:47 2026
+Kernel:  AVX+FMA - auto-detect threads (112 CPU cores detected)
+
+Reading alignment file strict_snps.min4.fasta ... Fasta format detected
+Reading fasta file: done in 0.00238559 secs using 10.94% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 19 sequences with 1130 columns, 155 distinct patterns
+0 parsimony-informative, 0 singleton sites, 1130 constant sites
+                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0095602 secs using 9954% CPU
+   1  results/alignment/CGG100272.sorted.rmdup.bam      1.59%    passed     99.94%
+   2  results/alignment/CGG100534.sorted.rmdup.bam      1.24%    passed     99.49%
+   3  results/alignment/CGG101233.sorted.rmdup.bam      1.15%    passed     99.59%
+   4  results/alignment/CGG_2_18521.sorted.rmdup.bam    1.59%    passed     99.76%
+   5  results/alignment/DA104.sorted.rmdup.bam        100.00%    passed      -nan%
+   6  results/alignment/DA112.sorted.rmdup.bam        100.00%    passed      -nan%
+   7  results/alignment/NEO105.sorted.rmdup.bam         4.34%    passed     98.26%
+   8  results/alignment/NEO137.sorted.rmdup.bam         1.77%    passed     98.87%
+   9  results/alignment/NEO160.sorted.rmdup.bam        73.89%    passed     55.71%
+  10  results/alignment/NEO31.sorted.rmdup.bam          7.35%    passed     91.08%
+  11  results/alignment/NEO65.sorted.rmdup.bam         18.05%    passed     99.70%
+  12  results/alignment/NEO938.sorted.rmdup.bam         1.42%    passed     99.67%
+  13  results/alignment/RISE349.sorted.rmdup.bam      100.00%    passed      -nan%
+  14  results/alignment/RISE373.sorted.rmdup.bam      100.00%    passed      -nan%
+  15  results/alignment/RISE413.sorted.rmdup.bam      100.00%    passed      -nan%
+  16  results/alignment/RISE540.sorted.rmdup.bam       47.61%    passed     43.59%
+  17  results/alignment/VK35.sorted.rmdup.bam          11.42%    passed     99.60%
+  18  results/alignment/VK441.sorted.rmdup.bam        100.00%    passed      -nan%
+  19  results/alignment/VK63.sorted.rmdup.bam         100.00%    passed      -nan%
+WARNING: 8 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                            45.86%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+WARNING: Sequence results/alignment/DA104.sorted.rmdup.bam contains only gaps or missing data
+WARNING: Sequence results/alignment/DA112.sorted.rmdup.bam contains only gaps or missing data
+WARNING: Sequence results/alignment/RISE349.sorted.rmdup.bam contains only gaps or missing data
+WARNING: Sequence results/alignment/RISE373.sorted.rmdup.bam contains only gaps or missing data
+WARNING: Sequence results/alignment/RISE413.sorted.rmdup.bam contains only gaps or missing data
+WARNING: Sequence results/alignment/VK441.sorted.rmdup.bam contains only gaps or missing data
+WARNING: Sequence results/alignment/VK63.sorted.rmdup.bam contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again

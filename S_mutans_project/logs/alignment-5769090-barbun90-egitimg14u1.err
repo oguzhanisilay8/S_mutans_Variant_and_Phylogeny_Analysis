@@ -1,0 +1,58 @@
+[bwa_aln] 17bp reads: max_diff = 2
+[bwa_aln] 22bp reads: max_diff = 3
+[bwa_aln] 42bp reads: max_diff = 4
+[bwa_aln] 64bp reads: max_diff = 5
+[bwa_aln] 90bp reads: max_diff = 6
+[bwa_aln] 117bp reads: max_diff = 7
+[bwa_aln] 146bp reads: max_diff = 8
+[bwa_aln] 176bp reads: max_diff = 9
+[bwa_aln] 207bp reads: max_diff = 10
+[bwa_aln] 239bp reads: max_diff = 11
+[bwa_aln_core] calculate SA coordinate... 6.99 sec
+[bwa_aln_core] write to the disk... 0.03 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 7.38 sec
+[bwa_aln_core] write to the disk... 0.03 sec
+[bwa_aln_core] 524288 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 7.13 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 786432 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 6.91 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 1048576 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 6.86 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 1310720 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 5.84 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 1562427 sequences have been processed.
+[main] Version: 0.7.19-r1273
+[main] CMD: /usr/local/bin/bwa aln -l 1024 -n 0.01 -t 4 /arf/scratch/egitimg14u1/S_mutans_Analizi/S_mutans_project/data/reference/GCF_000007465.2_ASM746v2_genomic.fna /arf/scratch/egitimg14u1/S_mutans_Analizi/S_mutans_project/data/RISE413.fastq.gz
+[main] Real time: 18.732 sec; CPU: 49.434 sec
+[bwa_aln_core] convert to sequence coordinate... 0.02 sec
+[bwa_aln_core] refine gapped alignments... 0.02 sec
+[bwa_aln_core] print alignments... 0.12 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 0.01 sec
+[bwa_aln_core] refine gapped alignments... 0.02 sec
+[bwa_aln_core] print alignments... 0.12 sec
+[bwa_aln_core] 524288 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 0.01 sec
+[bwa_aln_core] refine gapped alignments... 0.02 sec
+[bwa_aln_core] print alignments... 0.12 sec
+[bwa_aln_core] 786432 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 0.01 sec
+[bwa_aln_core] refine gapped alignments... 0.02 sec
+[bwa_aln_core] print alignments... 0.12 sec
+[bwa_aln_core] 1048576 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 0.01 sec
+[bwa_aln_core] refine gapped alignments... 0.02 sec
+[bwa_aln_core] print alignments... 0.12 sec
+[bwa_aln_core] 1310720 sequences have been processed.
+[bwa_aln_core] convert to sequence coordinate... 0.01 sec
+[bwa_aln_core] refine gapped alignments... 0.02 sec
+[bwa_aln_core] print alignments... 0.12 sec
+[bwa_aln_core] 1562427 sequences have been processed.
+[main] Version: 0.7.19-r1273
+[main] CMD: /usr/local/bin/bwa samse /arf/scratch/egitimg14u1/S_mutans_Analizi/S_mutans_project/data/reference/GCF_000007465.2_ASM746v2_genomic.fna /arf/scratch/egitimg14u1/S_mutans_Analizi/S_mutans_project/results/alignment/RISE413.sai /arf/scratch/egitimg14u1/S_mutans_Analizi/S_mutans_project/data/RISE413.fastq.gz
+[main] Real time: 2.966 sec; CPU: 2.984 sec
